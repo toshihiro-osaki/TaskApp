@@ -28,6 +28,7 @@ public class InputActivity extends AppCompatActivity {
     private EditText mTitleEdit, mContentEdit, mCategoryEdit; //カテゴリ　←追加
     private Task mTask;
 
+    //月日入力
     private View.OnClickListener mOnDateClickListener = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
@@ -46,6 +47,7 @@ public class InputActivity extends AppCompatActivity {
         }
     };
 
+    //時分入力
     private View.OnClickListener mOnTimeClickListener = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
@@ -63,6 +65,7 @@ public class InputActivity extends AppCompatActivity {
         }
     };
 
+    //決定ボタン
     private View.OnClickListener mOnDoneClickListener = new View.OnClickListener() {
         @Override
         public void onClick(View v) {

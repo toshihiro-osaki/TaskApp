@@ -54,5 +54,6 @@ public class TaskAlarmReceiver extends BroadcastReceiver {
         // 通知を表示する
         notificationManager.notify(task.getId(), builder.build());
         realm.close();
+
     }
 }
